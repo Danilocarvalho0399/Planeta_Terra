@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.ibxk.com.br/2019/05/17/a-17202525498312.jpg);
+    background-size: cover;
+}
+.globe{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-image: url(https://zh.rbsdirect.com.br/imagesrc/23639323.jpg?w=700);
+    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #3a96ff;
+    animation: rotate 35s linear infinite;
+}
+@keyframes rotate{
+   to{background-position: 100%;} 
+}
